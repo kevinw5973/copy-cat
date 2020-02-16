@@ -88,3 +88,26 @@ body {
     padding: 15px;
     margin-right: 15px;
 }
+
+#goggle {
+    width: 50%;
+    width: 1300px;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    
+}
+
+input[type=text] {
+    position: fixed;
+    top: 305px;
+    left: 460px;
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: rgb(223,225,229);
+}
+
+#searchbox {
+    width: 600px !important; 
+    height: 50px !important; 
+}
