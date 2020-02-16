@@ -1,0 +1,90 @@
+body {
+    font-family: arial;
+    font-size: 13px;
+    color: #5C5C5C;
+}
+
+#top-right {
+}
+
+#about {
+    float: left;
+    padding: 15px;
+}
+
+#store {
+    float: left;
+    padding: 15px;
+}
+
+#gmail {
+    float: right;
+    padding: 15px;
+}
+
+#image {
+    float: right;
+    padding: 15px;
+}
+
+#square {
+    float: right;
+    padding: 15px;
+}
+
+#icon {
+    float: right;
+    padding: 15px;
+    
+}
+
+#bottom-page {
+    position: fixed;
+    bottom: 0px;
+    background-color: #F1F1F1;
+    height: 42px;
+    width: 1300px;
+    width: 100%;
+    margin-right: -25px;
+}
+
+#left-bottom {
+    float: left;
+}
+
+#advertize {
+    float: left;
+    padding: 15px;
+    margin-left: -5px;
+}
+
+#business {
+    float: left;
+    padding: 15px;
+}
+
+#how-search {
+    float: left;
+    padding: 15px ;
+}
+
+#right-bottom {
+
+    
+}
+
+#privacy {
+    float: right;
+    padding: 15px;
+}
+
+#term {
+    float: right;
+    padding: 15px;
+}
+
+#setting {
+    float: right;
+    padding: 15px;
+    margin-right: 15px;
+}
