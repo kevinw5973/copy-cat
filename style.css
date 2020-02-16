@@ -105,6 +105,17 @@ input[type=text] {
     border: solid 1px;
     border-radius: 25px;
     border-color: rgb(223,225,229);
+    background-image: url("pictures/goggles.png");
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    padding-left: 50px;
+    font-size: 16px;
+    font-family: arial;
+}
+
+input:hover {
+    animation-name: box-shadow;
+    box-shadow: 0 1px 5px rgb(223,225,229);
 }
 
 #searchbox {
