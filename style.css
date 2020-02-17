@@ -1,20 +1,21 @@
 body {
     font-family: arial;
     font-size: 13px;
-    color: #5C5C5C;
+    color: black;
 }
 
 a:link {
-    color: #5C5C5C;
+    color: black;
     text-decoration: none
 }
 
 a:visited {
-    color: #5C5C5C;
+    color: black;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #5C5C5C;
 }
 
 #about {
@@ -39,7 +40,7 @@ a:hover {
 #image {
     float: right;
     padding: 15px;
-    margin-right: -7px;
+    margin-right: -5px;
     margin-top: 1px;
 }
 
@@ -56,20 +57,30 @@ a:hover {
     display: inline;
 }
 
-#icon {
-    float: right;
-    padding: 10px;
-    border: solid 1px #FF86F0;
-    background-color: #FF86F0;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    text-align: center;
+#sign-in {
+    float:right;
+}
+
+#signin-button {
+    height: 30px;
+    width: 69px;
+    background-color: rgb(68,133,246);
+    border: solid rgb(68,133,246) 2px;
+    border-radius: 2px;
+    margin-right: 22px;
+    margin-top: 8px;
     color: white;
-    font-size: 18px;
-    margin-right: 20px;
-    margin-top: 5px;
-    
+    outline: none;
+    animation-name: background-color;
+    animation-duration: 1s;
+}
+
+#signin-button:hover {
+    box-shadow: 0px 1px 0px rgb(223,225,229);;
+}
+
+#signin-button:focus:hover {
+    background-color: rgb(62,119,214);
 }
 
 #bottom-page {
@@ -139,11 +150,11 @@ a:hover {
 input[type=text] {
     position: fixed;
     top: 275px;
-    left: 450px;
+    left: 470px;
     border: solid 1px;
     border-radius: 25px;
     border-color: rgb(223,225,229);
-    background-image: url("pictures/goggles.png");
+    background-image: url("pictures/goggles.png") !important;
     background-repeat: no-repeat;
     background-position: 15px 15px;
     padding-left: 50px;
@@ -151,6 +162,17 @@ input[type=text] {
     font-family: arial;
     outline: none;
 }
+
+#mic {
+    position: fixed;
+    top: 290px;
+    left: 1020px;
+}
+
+/*#searchbox {*/
+/*    background-image: url("pictures/micke.png");*/
+/*    background-position: 200px 15px;*/
+/*}*/
 
 input:focus{
     animation-name: box-shadow;
@@ -163,7 +185,7 @@ input:hover {
 }
 
 #searchbox {
-    width: 600px !important; 
+    width: 590px !important; 
     height: 50px !important; 
 }
 
@@ -190,14 +212,14 @@ input:hover {
 #im-feeling {
     position: fixed;
     top: 352px;
-    left: 740px;
+    left: 760px;
     float: right;
 }
 
 #google-search {
     position: fixed;
     top: 352px;
-    left: 600px;
+    left: 620px;
     float: left;
 }
 
