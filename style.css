@@ -4,17 +4,29 @@ body {
     color: #5C5C5C;
 }
 
-#top-right {
+a:link {
+    color: #5C5C5C;
+    text-decoration: none
+}
+
+a:visited {
+    color: #5C5C5C;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #about {
     float: left;
     padding: 15px;
+    margin-left: 2px;
 }
 
 #store {
     float: left;
     padding: 15px;
+    margin-left: -11px;
 }
 
 #gmail {
@@ -45,7 +57,7 @@ body {
     height: 42px;
     width: 1300px;
     width: 100%;
-    margin-right: -25px;
+    margin-left: -10px;
 }
 
 #left-bottom {
@@ -55,17 +67,19 @@ body {
 #advertize {
     float: left;
     padding: 15px;
-    margin-left: -5px;
+    margin-left: 17px;
 }
 
 #business {
     float: left;
     padding: 15px;
+    margin-left: -3px;
 }
 
 #how-search {
     float: left;
-    padding: 15px ;
+    padding: 15px;
+    margin-left: -3px;
 }
 
 #right-bottom {
@@ -76,32 +90,34 @@ body {
 #privacy {
     float: right;
     padding: 15px;
+    margin-right: -3px;
 }
 
 #term {
     float: right;
     padding: 15px;
+    margin-right: -3px;
 }
 
 #setting {
     float: right;
     padding: 15px;
-    margin-right: 15px;
+    margin-right: 13px;
 }
 
 #goggle {
     width: 50%;
     width: 1300px;
     position: fixed;
-    top: 100px;
+    top: 75px;
     left: 500px;
     
 }
 
 input[type=text] {
     position: fixed;
-    top: 305px;
-    left: 460px;
+    top: 275px;
+    left: 450px;
     border: solid 1px;
     border-radius: 25px;
     border-color: rgb(223,225,229);
@@ -111,6 +127,12 @@ input[type=text] {
     padding-left: 50px;
     font-size: 16px;
     font-family: arial;
+    outline: none;
+}
+
+input:focus{
+    animation-name: box-shadow;
+    box-shadow: 0 1px 5px rgb(223,225,229);
 }
 
 input:hover {
@@ -121,4 +143,53 @@ input:hover {
 #searchbox {
     width: 600px !important; 
     height: 50px !important; 
+}
+
+#imfeeling-button {
+    width: 140px;
+    height: 35px;
+    background-color: #F1F1F1;
+    border: #F1F1F1;
+    color: #5C5C5C;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#search-button {
+    width: 130px;
+    height: 35px;
+    background-color: #F1F1F1;
+    border: #F1F1F1;
+    color: #5C5C5C;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#im-feeling {
+    position: fixed;
+    top: 352px;
+    left: 740px;
+    float: right;
+}
+
+#google-search {
+    position: fixed;
+    top: 352px;
+    left: 600px;
+    float: left;
+}
+
+#imfeeling-button:hover {
+    animation-name: background-color;
+    color: black;
+    background-color: rgb(244,244,244);
+    border: 1px #5C5C5C solid;
+    
+}
+
+#search-button:hover {
+    animation-name: background-color;
+    color: black;
+    background-color: rgb(244,244,244);
+    border: 1px #5C5C5C solid;
 }
